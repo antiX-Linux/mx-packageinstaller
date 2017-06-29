@@ -1,0 +1,6 @@
+packageinstaller 		usr/bin
+packageinstaller.desktop 	usr/share/applications
+translations/*.qm 		usr/share/packageinstaller/locale
+packageinstaller.png		usr/share/pixmaps
+license.html            	usr/share/doc/packageinstaller
+
