@@ -1,6 +1,0 @@
-mx-packageinstaller 		usr/bin
-mx-packageinstaller.desktop 	usr/share/applications
-translations/*.qm 		usr/share/mx-packageinstaller/locale
-mx-packageinstaller.png		usr/share/pixmaps
-license.html            	usr/share/doc/mx-packageinstaller
-
