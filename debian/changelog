@@ -1,3 +1,9 @@
+packageinstaller (0.1.1) unstable; urgency=medium
+
+  * Debian version detection bug fix
+
+ -- anticapitalista <antix@operamail.com>  Sun, 23 Jul 2017 11:25:28 +0100
+
 packageinstaller (0.1.0) unstable; urgency=medium
 
   * Initial build for antiX 

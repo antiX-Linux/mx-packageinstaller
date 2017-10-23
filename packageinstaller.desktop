@@ -33,8 +33,5 @@ Comment[sv]=Enkel Paket-installerare
 Comment[tr]=Simple Package Installer
 Exec=su-to-root -X -c packageinstaller
 Icon=packageinstaller
-NoDisplay=True
 Categories=System;
 Type=Application
-
-
