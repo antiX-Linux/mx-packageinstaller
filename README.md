@@ -1,3 +1,3 @@
-packageinstaller
+mx-packageinstaller
 ===================
 
