@@ -1186,7 +1186,7 @@ void MainWindow::on_buttonAbout_clicked()
     msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
     msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
     if (msgBox.exec() == QMessageBox::AcceptRole) {
-        system("mx-viewer file:///usr/share/doc/mx-packageinstaller/license.html '" + tr("Package Installer").toUtf8() + " " + tr("License").toUtf8() + "'");
+        system("antix-viewer file:///usr/share/doc/mx-packageinstaller/license.html '" + tr("Package Installer").toUtf8() + " " + tr("License").toUtf8() + "'");
     }
     this->show();
 }
@@ -1194,7 +1194,7 @@ void MainWindow::on_buttonAbout_clicked()
 void MainWindow::on_buttonHelp_clicked()
 {
     this->hide();
-    QString cmd = QString("mx-viewer https://mxlinux.org/wiki/help-files/help-mx-package-installer '%1'").arg(tr("Package Installer"));
+    QString cmd = QString("antix-viewer https://mxlinux.org/wiki/help-files/help-mx-package-installer '%1'").arg(tr("Package Installer"));
     system(cmd.toUtf8());
     this->show();
 }

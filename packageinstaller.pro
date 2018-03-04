@@ -51,16 +51,13 @@ TRANSLATIONS += translations/packageinstaller_ca.ts \
                 translations/packageinstaller_es.ts \
                 translations/packageinstaller_fr.ts \
                 translations/packageinstaller_it.ts \
-                translations/packageinstaller_ja.ts \
-                translations/packageinstaller_lt.ts \
                 translations/packageinstaller_nl.ts \
-                translations/packageinstaller_pl.ts \
                 translations/packageinstaller_pt.ts \
                 translations/packageinstaller_ro.ts \
                 translations/packageinstaller_ru.ts \
                 translations/packageinstaller_sk.ts \
                 translations/packageinstaller_sv.ts \
-                translations/packageinstaller_tr.ts
+                translations/packageinstaller_zh_TW.ts
 
 RESOURCES += \
     images.qrc

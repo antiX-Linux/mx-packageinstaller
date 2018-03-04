@@ -1,3 +1,15 @@
+packageinstaller (0.1.3) unstable; urgency=medium
+
+  * improved translations
+
+ -- anticapitalista <antix@operamail.com>  Sat, 03 Mar 2018 01:01:21 +0200
+
+packageinstaller (0.1.2) unstable; urgency=medium
+
+  * use antix-viewer
+
+ -- anticapitalista <antix@operamail.com>  Wed, 21 Feb 2018 16:47:55 +0200
+
 packageinstaller (0.1.1) unstable; urgency=medium
 
   * Debian version detection bug fix
