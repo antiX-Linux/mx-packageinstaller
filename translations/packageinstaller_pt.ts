@@ -52,7 +52,7 @@
         <location filename="mainwindow.ui" line="108"/>
         <location filename="ui_mainwindow.h" line="439"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Manage popular packages&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Greyed out items have already been installed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Para gerir a instalação de aplicações&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Os itens sombreados já foram instalados.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;Instalar/Desinstalar Aplicações/Pacotes&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Os itens sombreados já estão instalados.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="138"/>
@@ -85,13 +85,13 @@
         <location filename="mainwindow.cpp" line="1281"/>
         <location filename="ui_mainwindow.h" line="444"/>
         <source>Debian Backports Repo</source>
-        <translation>Repositório de Atualizações Debian Retroactivas</translation>
+        <translation>Repositório Debian Backports (de actualizações retroportadas)</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="258"/>
         <location filename="ui_mainwindow.h" line="454"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Filter packages according to their status.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Filtrar pacotes pelo seu estado.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Filtrar pacotes pelo estado.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="261"/>
@@ -293,12 +293,12 @@
     <message>
         <location filename="mainwindow.cpp" line="474"/>
         <source> in stable repo</source>
-        <translation>no repositório estável (stable)</translation>
+        <translation>no repositório &apos;stable&apos;</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="479"/>
         <source>Not available in stable repo</source>
-        <translation>Não disponível no repositório estável (stable)</translation>
+        <translation>Não disponível no repositório &apos;stable&apos;</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="488"/>
@@ -323,7 +323,7 @@
     <message>
         <location filename="mainwindow.cpp" line="527"/>
         <source>You are about to use Debian Backports, which contains packages taken from the next Debian release (called &apos;testing&apos;), adjusted and recompiled for usage on Debian stable. They cannot be tested as extensively as in the stable releases of Debian and antiX Linux, and are provided on an as-is basis, with risk of incompatibilities with other components in Debian stable. Use with care!</source>
-        <translation>Está prestes a usar o repositório de actualizações retroactivas Debian Backports, que contém pacotes retirados da próxima versão (por enquanto na fase &apos;testing&apos;) do Debian, adaptados e recompilados para uso no na actual versão estável (stable) do Debian. Não é possível testá-los tão extensivamente como nas versões estáveis do Debian e do Linux MX, sendo disponibilizados na base como-estão, com o risco de incompatibilidades com outros componentes do Debian estável (stable). Usar com cuidado!</translation>
+        <translation>Irá ser usado o repositório Debian Backports de actualizações retroportadas, que contém pacotes retirados da próxima versão do Debian (testing), adaptados e recompilados para uso na actual versão do Debian (stable). Esses pacotes não foram testados tão extensivamente como os das versões estáveis do Debian e do MX; são disponibilizados &apos;como estão&apos;, com o risco de incompatibilidades com outros componentes do Debian (stable). Usar com cuidado!</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="535"/>
@@ -342,7 +342,7 @@
         <location filename="mainwindow.cpp" line="662"/>
         <location filename="mainwindow.cpp" line="767"/>
         <source>Internet is not available, won&apos;t be able to download the list of packages</source>
-        <translation>A Internet não está disponível; não será possível descarregar a lista de pacotes</translation>
+        <translation>Sem ligação à Internet; não é possível descarregar a lista de pacotes</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="580"/>
@@ -377,12 +377,12 @@
     <message>
         <location filename="mainwindow.cpp" line="697"/>
         <source>Done</source>
-        <translation>Feito</translation>
+        <translation>Concluído</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="698"/>
         <source>Process finished.&lt;p&gt;&lt;b&gt;Do you want to exit Package Installer?&lt;/b&gt;</source>
-        <translation>Processo finalizado.&lt;p&gt;&lt;b&gt;Pretende sair do Instalador de Pacotes?&lt;/b&gt;</translation>
+        <translation>Processo finalizado.&lt;p&gt;&lt;b&gt;Sair do Gestor de Aplicações?&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="699"/>
@@ -417,7 +417,7 @@
     <message>
         <location filename="mainwindow.cpp" line="1181"/>
         <source>About Package Installer</source>
-        <translation>Sobre o Instalador de Pacotes</translation>
+        <translation>Sobre o Gestor de Aplicações</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1182"/>
@@ -427,7 +427,7 @@
     <message>
         <location filename="mainwindow.cpp" line="1183"/>
         <source>Package Installer for antiX Linux</source>
-        <translation>Instalador de pacotes do antiX</translation>
+        <translation>Gestor de Aplicações do antiX</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1185"/>
@@ -453,7 +453,7 @@
     <message>
         <location filename="mainwindow.cpp" line="1280"/>
         <source>Please select repo to load</source>
-        <translation>Seleccione o repositório a carregar</translation>
+        <translation>Seleccionar o repositório a carregar</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="1379"/>
@@ -471,12 +471,12 @@
     <message>
         <location filename="main.cpp" line="57"/>
         <source>Another package management application (like Synaptic or apt-get), is already running. Please close that application first</source>
-        <translation>Está em execução outra aplicação de gestão de pacotes (p. ex. Synaptic ou apt-get). Primeiro feche a aplicação em execução.</translation>
+        <translation>Está em execução outra aplicação de gestão de pacotes (p. ex. Synaptic ou apt-get). Fechar primeiro a aplicação em execução.</translation>
     </message>
     <message>
         <location filename="main.cpp" line="69"/>
         <source>You must run this program as root.</source>
-        <translation>Tem que executar este programa como administrador (root).</translation>
+        <translation>Este programa tem que executado como root.</translation>
     </message>
 </context>
 </TS>
